@@ -1,8 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import { createGlobalStyle, ThemeProvider } from 'styled-components';
 import App from './App';
-
-import { createGlobalStyle, ThemeProvider } from 'styled-components'
 
 const GlobalStyle = createGlobalStyle`
   * {
@@ -12,7 +11,7 @@ const GlobalStyle = createGlobalStyle`
   body {
     font-size: 16px;
   }
-`
+`;
 
 ReactDOM.render(
   <React.StrictMode>
@@ -21,5 +20,5 @@ ReactDOM.render(
       <App />
     </ThemeProvider>
   </React.StrictMode>,
-  document.getElementById('root')
+  document.getElementById('root'),
 );
