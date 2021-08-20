@@ -20,5 +20,7 @@ module.exports = {
     'prettier/prettier': ['warn', {}, { usePrettierrc: true }],
     'import/prefer-default-export': 'off',
     'react/jsx-filename-extension': [1, { extensions: ['.js', '.jsx'] }],
+    'react/jsx-props-no-spreading': 'off',
+    'react/button-has-type': 'off',
   },
 };
