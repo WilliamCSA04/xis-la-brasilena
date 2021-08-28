@@ -1,5 +1,11 @@
 import styled from 'styled-components';
-import { HeroBanner } from '../../components';
+import { 
+  HeroBanner, 
+  MiddleTitle, 
+  MealWrapperOne, 
+  MiddleConteiner,
+  MealImages,
+} from '../../components';
 
 export const TextWrapper = styled.div`
   margin: auto;
@@ -33,4 +39,51 @@ export const CustomHeroBanner = styled(HeroBanner)`
   display: flex;
   justify-content: center;
   align-items: center;
+`;
+
+export const CustomMiddleConteiner = styled(MiddleConteiner)`
+display: flex;
+justify-content: space-between;
+border-radius: 5px;
+flex-wrap: wrap;
+`; 
+
+export const CustomMiddleTitle = styled(MiddleTitle)`
+  h2{
+    color:${props => props.theme.lightMode.colors.secondary.normal};
+    font-size: 36px;
+    line-height: 44px;
+    position: relative;
+    height: 55px;
+  }
+  `;
+export const CostumMealWrapperOne = styled(MealWrapperOne)`
+  color:${props => props.theme.lightMode.colors.white};
+  background-color:${props => props.theme.lightMode.colors.tertiary.dark};
+  border-style:none;
+  border-radius:5px;
+  box-shadow:11px 10px 16px -4px rgba(0,0,0,0.41);
+  width: 20rem;
+  margin-top: 1rem;
+`;
+
+export const CostumMealImages = styled(MealImages)`
+img{
+  width: 100%;
+  border-radius:5px;
+}
+`;
+
+export const MealSection = styled.section`
+padding:20px;
+margin:20px;
+`;
+
+export const MealTexts = styled.div`
+padding: 1rem;
+display: flex;
+justify-content: space-between; 
+`;
+
+export const MealParagraph = styled.div`
 `;

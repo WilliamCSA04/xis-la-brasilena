@@ -1,11 +1,21 @@
 import React from 'react';
-import { Header } from '../../components';
+import { 
+  Header,
+  MealImages, 
+} from '../../components';
 import { FIREBASE_ASSETS_BASE_URL } from '../../config';
 import {
   CustomHeroBanner,
   InfoParagraph,
   TextWrapper,
   TitleWrapper,
+  CustomMiddleTitle,
+  CostumMealWrapperOne,
+  CustomMiddleConteiner,
+  CostumMealImages,
+  MealSection,
+  MealTexts,
+  MealParagraph,
 } from './Home.styles';
 import texts from './texts';
 
@@ -30,6 +40,60 @@ export default function Home() {
           <InfoParagraph>{texts['pt-BR'].heroBanner.info}</InfoParagraph>
         </TextWrapper>
       </CustomHeroBanner>
+      <MealSection>
+      <CustomMiddleTitle>
+        <h2>{texts['pt-BR'].menu.title}</h2>
+      </CustomMiddleTitle>
+      <CustomMiddleConteiner>
+        <CostumMealWrapperOne>
+          <CostumMealImages>
+          <img
+          alt=""
+          src={`${FIREBASE_ASSETS_BASE_URL}x-sabor-1.jpeg?alt=media`}
+          />
+          </CostumMealImages>
+          <MealTexts>
+          <h3>{texts['pt-BR'].cheeseburgerMeat.title}</h3>
+          <MealParagraph>
+          <p>{texts['pt-BR'].cheeseburgerMeat.postTitle}</p>
+          <p>{texts['pt-BR'].cheeseburgerMeat.info}</p>
+          </MealParagraph>
+          </MealTexts>
+        </CostumMealWrapperOne>
+        <CostumMealWrapperOne>
+          <CostumMealImages>
+            <MealImages>
+            <img
+              alt=""
+              src={`${FIREBASE_ASSETS_BASE_URL}x-sabor-2.jpeg?alt=media`}
+              />
+            </MealImages>
+          </CostumMealImages>
+            <MealTexts>
+            <h3>{texts['pt-BR'].cheeseburgerPork.title}</h3>
+            <MealParagraph>
+            <p>{texts['pt-BR'].cheeseburgerPork.postTitle}</p>
+            <p>{texts['pt-BR'].cheeseburgerPork.info}</p>
+            </MealParagraph>
+            </MealTexts>
+          </CostumMealWrapperOne>
+          <CostumMealWrapperOne>
+          <CostumMealImages>
+          <img
+          alt=""
+          src={`${FIREBASE_ASSETS_BASE_URL}x-sabor-3.jpeg?alt=media`}
+          />
+          </CostumMealImages>
+          <MealTexts>
+          <h3>{texts['pt-BR'].cheeseburgerChicken.title}</h3>
+          <MealParagraph>
+          <p>{texts['pt-BR'].cheeseburgerChicken.postTitle}</p>
+          <p>{texts['pt-BR'].cheeseburgerChicken.info}</p>
+          </MealParagraph>
+          </MealTexts>
+          </CostumMealWrapperOne>
+          </CustomMiddleConteiner>
+          </MealSection>
     </div>
   );
 }
