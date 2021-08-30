@@ -31,6 +31,10 @@ const theme = {
     primary: 'Roboto',
     secondary: 'Montserrat',
   },
+  breakpoints: {
+    tablet: '650px',
+    desktop: '1200px',
+  },
 };
 
 const GlobalStyle = createGlobalStyle`
