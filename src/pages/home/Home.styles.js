@@ -103,3 +103,52 @@ export const MealTexts = styled.div`
 `;
 
 export const MealParagraph = styled.div``;
+
+export const Footer = styled.footer`
+  padding: 2rem;
+  background-color: ${props => props.theme.lightMode.colors.secondary.dark};
+  display: flex;
+  justify-content: space-around;
+`;
+
+export const ShareSection = styled.section`
+  h2 {
+    margin-left: 0.6rem;
+  }
+`;
+
+export const SocialMedia = styled.div`
+  a {
+    display: inline-block;
+  }
+`;
+
+export const VerticalLine = styled.div`
+  border-left: 1px white solid;
+`;
+
+export const OrderSection = styled.section``;
+
+export const OrderTitleWrapper = styled.div`
+  display: flex;
+  align-items: center;
+  a {
+    margin-left: 1rem;
+    color: ${props => props.theme.lightMode.colors.white};
+    svg {
+      margin-right: 0.2rem;
+      vertical-align: sub;
+    }
+  }
+  span: {
+    font-size: 2rem;
+  }
+  h2 {
+    display: inline-block;
+  }
+`;
+
+export const AcceptedCards = styled.p`
+  font-weight: bold;
+  font-size: 1.5rem;
+`;

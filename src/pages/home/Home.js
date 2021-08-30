@@ -1,8 +1,7 @@
 import React from 'react';
-import { 
-  Header,
-  MealImages, 
-} from '../../components';
+import { TiSocialFacebook } from 'react-icons/ti';
+import { FaWhatsapp } from 'react-icons/fa';
+import { Header, MealImages } from '../../components';
 import { FIREBASE_ASSETS_BASE_URL } from '../../config';
 import {
   CustomHeroBanner,
@@ -16,6 +15,13 @@ import {
   MealSection,
   MealTexts,
   MealParagraph,
+  Footer,
+  ShareSection,
+  SocialMedia,
+  VerticalLine,
+  OrderSection,
+  OrderTitleWrapper,
+  AcceptedCards,
 } from './Home.styles';
 import texts from './texts';
 
@@ -40,60 +46,86 @@ export default function Home() {
           <InfoParagraph>{texts['pt-BR'].heroBanner.info}</InfoParagraph>
         </TextWrapper>
       </CustomHeroBanner>
-      <MealSection>
-      <CustomMiddleTitle>
-        <h2>{texts['pt-BR'].menu.title}</h2>
-      </CustomMiddleTitle>
-      <CustomMiddleConteiner>
-        <CostumMealWrapperOne>
-          <CostumMealImages>
-          <img
-          alt=""
-          src={`${FIREBASE_ASSETS_BASE_URL}x-sabor-1.jpeg?alt=media`}
-          />
-          </CostumMealImages>
-          <MealTexts>
-          <h3>{texts['pt-BR'].cheeseburgerMeat.title}</h3>
-          <MealParagraph>
-          <p>{texts['pt-BR'].cheeseburgerMeat.postTitle}</p>
-          <p>{texts['pt-BR'].cheeseburgerMeat.info}</p>
-          </MealParagraph>
-          </MealTexts>
-        </CostumMealWrapperOne>
-        <CostumMealWrapperOne>
-          <CostumMealImages>
-            <MealImages>
-            <img
-              alt=""
-              src={`${FIREBASE_ASSETS_BASE_URL}x-sabor-2.jpeg?alt=media`}
-              />
-            </MealImages>
-          </CostumMealImages>
-            <MealTexts>
-            <h3>{texts['pt-BR'].cheeseburgerPork.title}</h3>
-            <MealParagraph>
-            <p>{texts['pt-BR'].cheeseburgerPork.postTitle}</p>
-            <p>{texts['pt-BR'].cheeseburgerPork.info}</p>
-            </MealParagraph>
-            </MealTexts>
-          </CostumMealWrapperOne>
-          <CostumMealWrapperOne>
-          <CostumMealImages>
-          <img
-          alt=""
-          src={`${FIREBASE_ASSETS_BASE_URL}x-sabor-3.jpeg?alt=media`}
-          />
-          </CostumMealImages>
-          <MealTexts>
-          <h3>{texts['pt-BR'].cheeseburgerChicken.title}</h3>
-          <MealParagraph>
-          <p>{texts['pt-BR'].cheeseburgerChicken.postTitle}</p>
-          <p>{texts['pt-BR'].cheeseburgerChicken.info}</p>
-          </MealParagraph>
-          </MealTexts>
-          </CostumMealWrapperOne>
+      <main>
+        <MealSection>
+          <CustomMiddleTitle>
+            <h2>{texts['pt-BR'].menu.title}</h2>
+          </CustomMiddleTitle>
+          <CustomMiddleConteiner>
+            <CostumMealWrapperOne>
+              <CostumMealImages>
+                <img
+                  alt=""
+                  src={`${FIREBASE_ASSETS_BASE_URL}x-sabor-1.jpeg?alt=media`}
+                />
+              </CostumMealImages>
+              <MealTexts>
+                <h3>{texts['pt-BR'].cheeseburgerMeat.title}</h3>
+                <MealParagraph>
+                  <p>{texts['pt-BR'].cheeseburgerMeat.postTitle}</p>
+                  <p>{texts['pt-BR'].cheeseburgerMeat.info}</p>
+                </MealParagraph>
+              </MealTexts>
+            </CostumMealWrapperOne>
+            <CostumMealWrapperOne>
+              <CostumMealImages>
+                <MealImages>
+                  <img
+                    alt=""
+                    src={`${FIREBASE_ASSETS_BASE_URL}x-sabor-2.jpeg?alt=media`}
+                  />
+                </MealImages>
+              </CostumMealImages>
+              <MealTexts>
+                <h3>{texts['pt-BR'].cheeseburgerPork.title}</h3>
+                <MealParagraph>
+                  <p>{texts['pt-BR'].cheeseburgerPork.postTitle}</p>
+                  <p>{texts['pt-BR'].cheeseburgerPork.info}</p>
+                </MealParagraph>
+              </MealTexts>
+            </CostumMealWrapperOne>
+            <CostumMealWrapperOne>
+              <CostumMealImages>
+                <img
+                  alt=""
+                  src={`${FIREBASE_ASSETS_BASE_URL}x-sabor-3.jpeg?alt=media`}
+                />
+              </CostumMealImages>
+              <MealTexts>
+                <h3>{texts['pt-BR'].cheeseburgerChicken.title}</h3>
+                <MealParagraph>
+                  <p>{texts['pt-BR'].cheeseburgerChicken.postTitle}</p>
+                  <p>{texts['pt-BR'].cheeseburgerChicken.info}</p>
+                </MealParagraph>
+              </MealTexts>
+            </CostumMealWrapperOne>
           </CustomMiddleConteiner>
-          </MealSection>
+        </MealSection>
+      </main>
+      <Footer>
+        <ShareSection>
+          <h2>{texts['pt-BR'].footer.shareSection.title}</h2>
+          <SocialMedia>
+            <a href="https://www.facebook.com/profile.php?id=100070803637422">
+              <TiSocialFacebook size="2rem" color="white" />
+            </a>
+          </SocialMedia>
+        </ShareSection>
+        <VerticalLine />
+        <OrderSection>
+          <OrderTitleWrapper>
+            <h2>Pedidos:</h2>{' '}
+            <a
+              href="https://api.whatsapp.com/send?phone=55111111111111111100"
+              aria-label="Faça o pedido pelo whatsapp"
+            >
+              <FaWhatsapp />
+              <span>55111111111111111100</span>
+            </a>
+          </OrderTitleWrapper>
+          <AcceptedCards>Todos os cartões aceitos</AcceptedCards>
+        </OrderSection>
+      </Footer>
     </div>
   );
 }

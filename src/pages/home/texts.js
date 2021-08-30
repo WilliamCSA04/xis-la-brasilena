@@ -12,17 +12,22 @@ export default {
     cheeseburgerMeat: {
       title: 'Xis de Carne',
       postTitle: '15cm',
-      info:'s/15',
+      info: 's/15',
     },
     cheeseburgerPork: {
       title: 'Xis de Cerdo',
       postTitle: '15cm',
-      info:'s/15',
+      info: 's/15',
     },
     cheeseburgerChicken: {
       title: 'Xis de Pollo',
       postTitle: '15cm',
-      info:'s/15',
+      info: 's/15',
+    },
+    footer: {
+      shareSection: {
+        title: 'Compartilhe:',
+      },
     },
   },
 };
