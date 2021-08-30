@@ -5,6 +5,7 @@ const HeroBanner = styled.div`
   background-image: ${props => (props.bgImg ? `url('${props.bgImg}')` : '')};
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: center;
 `;
 
 export default HeroBanner;
