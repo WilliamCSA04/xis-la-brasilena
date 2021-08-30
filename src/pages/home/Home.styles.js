@@ -108,23 +108,36 @@ export const Footer = styled.footer`
   padding: 2rem;
   background-color: ${props => props.theme.lightMode.colors.secondary.dark};
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-around;
+  @media (max-width: ${props => props.theme.breakpoints.tablet}) {
+    section {
+      width: 100%;
+    }
+  }
 `;
 
 export const ShareSection = styled.section`
   h2 {
-    margin-left: 0.6rem;
+    display: inline-block;
   }
 `;
 
 export const SocialMedia = styled.div`
+  display: inline-block;
   a {
     display: inline-block;
+    svg {
+      vertical-align: bottom;
+    }
   }
 `;
 
 export const VerticalLine = styled.div`
   border-left: 1px white solid;
+  @media (max-width: ${props => props.theme.breakpoints.tablet}) {
+    display: none;
+  }
 `;
 
 export const OrderSection = styled.section``;
@@ -133,6 +146,8 @@ export const OrderTitleWrapper = styled.div`
   display: flex;
   align-items: center;
   a {
+    text-overflow: ellipsis;
+    overflow: hidden;
     margin-left: 1rem;
     color: ${props => props.theme.lightMode.colors.white};
     svg {

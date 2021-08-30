@@ -106,8 +106,11 @@ export default function Home() {
         <ShareSection>
           <h2>{texts['pt-BR'].footer.shareSection.title}</h2>
           <SocialMedia>
-            <a href="https://www.facebook.com/profile.php?id=100070803637422">
-              <TiSocialFacebook size="2rem" color="white" />
+            <a
+              href="https://www.facebook.com/profile.php?id=100070803637422"
+              aria-label="Página do Facebook"
+            >
+              <TiSocialFacebook size="1.5rem" color="white" />
             </a>
           </SocialMedia>
         </ShareSection>
