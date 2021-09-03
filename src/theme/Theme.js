@@ -32,6 +32,7 @@ const theme = {
     secondary: 'Montserrat',
   },
   breakpoints: {
+    mobile: '450px',
     tablet: '650px',
     desktop: '1200px',
   },

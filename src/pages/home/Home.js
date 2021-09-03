@@ -33,14 +33,13 @@ export default function Home() {
           alt="Logotipo: Banderia brasileira com um xis no centro"
           src={`${FIREBASE_ASSETS_BASE_URL}Logo.svg?alt=media`}
         />
+        <h1>{texts['pt-BR'].heroBanner.title}</h1>
       </Header>
       <CustomHeroBanner
         bgImg={`${FIREBASE_ASSETS_BASE_URL}banner.jpeg?alt=media`}
       >
         <TextWrapper>
           <TitleWrapper>
-            <h1>{texts['pt-BR'].heroBanner.title}</h1>
-            <span>{texts['pt-BR'].heroBanner.postTitle}</span>
             <span>{texts['pt-BR'].heroBanner.highlightInfo}</span>
           </TitleWrapper>
           <InfoParagraph>{texts['pt-BR'].heroBanner.info}</InfoParagraph>
