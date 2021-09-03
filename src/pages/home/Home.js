@@ -1,7 +1,7 @@
 import React from 'react';
 import { TiSocialFacebook } from 'react-icons/ti';
 import { FaWhatsapp } from 'react-icons/fa';
-import { Header, MealImages } from '../../components';
+import { Header } from '../../components';
 import { FIREBASE_ASSETS_BASE_URL } from '../../config';
 import {
   CustomHeroBanner,
@@ -58,9 +58,10 @@ export default function Home() {
                   alt=""
                   src={`${FIREBASE_ASSETS_BASE_URL}x-sabor-1.jpeg?alt=media`}
                 />
+                <figcaption>{texts['pt-BR'].cheeseburgerMeat.title}</figcaption>
               </CostumMealImages>
               <MealTexts>
-                <h3>{texts['pt-BR'].cheeseburgerMeat.title}</h3>
+                <p>{texts['pt-BR'].cheeseburgerMeat.description}</p>
                 <MealParagraph>
                   <p>{texts['pt-BR'].cheeseburgerMeat.postTitle}</p>
                   <p>{texts['pt-BR'].cheeseburgerMeat.info}</p>
@@ -69,15 +70,14 @@ export default function Home() {
             </CostumMealWrapperOne>
             <CostumMealWrapperOne>
               <CostumMealImages>
-                <MealImages>
-                  <img
-                    alt=""
-                    src={`${FIREBASE_ASSETS_BASE_URL}x-sabor-2.jpeg?alt=media`}
-                  />
-                </MealImages>
+                <img
+                  alt=""
+                  src={`${FIREBASE_ASSETS_BASE_URL}x-sabor-2.jpeg?alt=media`}
+                />
+                <figcaption>{texts['pt-BR'].cheeseburgerPork.title}</figcaption>
               </CostumMealImages>
               <MealTexts>
-                <h3>{texts['pt-BR'].cheeseburgerPork.title}</h3>
+                <p>{texts['pt-BR'].cheeseburgerPork.description}</p>
                 <MealParagraph>
                   <p>{texts['pt-BR'].cheeseburgerPork.postTitle}</p>
                   <p>{texts['pt-BR'].cheeseburgerPork.info}</p>
@@ -90,9 +90,12 @@ export default function Home() {
                   alt=""
                   src={`${FIREBASE_ASSETS_BASE_URL}x-sabor-3.jpeg?alt=media`}
                 />
+                <figcaption>
+                  {texts['pt-BR'].cheeseburgerChicken.title}
+                </figcaption>
               </CostumMealImages>
               <MealTexts>
-                <h3>{texts['pt-BR'].cheeseburgerChicken.title}</h3>
+                <p>{texts['pt-BR'].cheeseburgerChicken.description}</p>
                 <MealParagraph>
                   <p>{texts['pt-BR'].cheeseburgerChicken.postTitle}</p>
                   <p>{texts['pt-BR'].cheeseburgerChicken.info}</p>

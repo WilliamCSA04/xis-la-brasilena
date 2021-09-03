@@ -85,6 +85,15 @@ export const CostumMealWrapperOne = styled(MealWrapperOne)`
 `;
 
 export const CostumMealImages = styled(MealImages)`
+  position: relative;
+  figcaption {
+    position: absolute;
+    bottom: 1rem;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 2rem;
+  }
   img {
     width: 100%;
     border-radius: 5px;
@@ -100,6 +109,9 @@ export const MealTexts = styled.div`
   padding: 1rem;
   display: flex;
   justify-content: space-between;
+  p {
+    margin-right: 1rem;
+  }
 `;
 
 export const MealParagraph = styled.div``;
