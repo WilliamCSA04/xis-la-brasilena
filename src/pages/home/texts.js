@@ -7,7 +7,7 @@ export default {
       info: 'Horários de Funcionamento: 5pm ás 11pm',
     },
     menu: {
-      title: 'cardapio',
+      title: 'Cardapio',
     },
     cheeseburgerMeat: {
       title: 'Xis de Carne',

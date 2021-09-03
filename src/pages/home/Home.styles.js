@@ -50,6 +50,7 @@ export const InfoParagraph = styled.p`
   text-align: center;
   font-weight: bold;
   font-size: 1.5rem;
+  margin-top: 10rem;
 `;
 
 export const CustomHeroBanner = styled(HeroBanner)`
