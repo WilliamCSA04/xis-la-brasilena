@@ -26,7 +26,7 @@ export default {
     cheeseburgerChicken: {
       title: 'Xis de Pollo',
       description:
-        'Pan 15cm de diametro, 150g de hamburguesa de Pollo Mayonesa artesanal de la casa Huevo tipo Omelet, queso Choclito americano, alverjita Tomate, lechuga Chatchup y mostaza.',
+        'Pan 15cm de diametro, 150g de hamburguesa de Pollo, Mayonesa artesanal de la casa, Huevo tipo Omelet, queso Choclito americano, alverjita Tomate, lechuga Chatchup y mostaza.',
       postTitle: '15cm',
       info: 's/16',
     },
