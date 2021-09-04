@@ -22,6 +22,8 @@ import {
   OrderSection,
   OrderTitleWrapper,
   AcceptedCards,
+  OrderWrapper,
+  OrderImageWrapper,
 } from './Home.styles';
 import texts from './texts';
 
@@ -118,17 +120,29 @@ export default function Home() {
         </ShareSection>
         <VerticalLine />
         <OrderSection>
-          <OrderTitleWrapper>
-            <h2>Pedidos:</h2>{' '}
-            <a
-              href="https://api.whatsapp.com/send?phone=55111111111111111100"
-              aria-label="Faça o pedido pelo whatsapp"
-            >
-              <FaWhatsapp />
-              <span>55111111111111111100</span>
-            </a>
-          </OrderTitleWrapper>
-          <AcceptedCards>Todos os cartões aceitos</AcceptedCards>
+          <OrderImageWrapper>
+            <img
+              alt="Pagamento com yape"
+              src={`${FIREBASE_ASSETS_BASE_URL}yape.jpg?alt=media`}
+            />
+            <img
+              alt="Pagamento com yape"
+              src={`${FIREBASE_ASSETS_BASE_URL}maquininha.png?alt=media`}
+            />
+          </OrderImageWrapper>
+          <OrderWrapper>
+            <OrderTitleWrapper>
+              <h2>Pedidos:</h2>{' '}
+              <a
+                href="https://api.whatsapp.com/send?phone=51946531811"
+                aria-label="Faça o pedido pelo whatsapp"
+              >
+                <FaWhatsapp />
+                <span>946531811</span>
+              </a>
+            </OrderTitleWrapper>
+            <AcceptedCards>Todos os cartões aceitos</AcceptedCards>
+          </OrderWrapper>
         </OrderSection>
       </Footer>
     </div>

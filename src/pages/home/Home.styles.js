@@ -153,10 +153,22 @@ export const VerticalLine = styled.div`
   }
 `;
 
-export const OrderSection = styled.section``;
+export const OrderSection = styled.section`
+  display: flex;
+  flex-direction: row;
+`;
+
+export const OrderImageWrapper = styled.section`
+  img {
+    height: 4rem;
+    margin-right: 1rem;
+    width: auto;
+  }
+`;
 
 export const OrderTitleWrapper = styled.div`
   display: flex;
+  flex-direction: row;
   align-items: center;
   a {
     text-overflow: ellipsis;
@@ -175,6 +187,8 @@ export const OrderTitleWrapper = styled.div`
     display: inline-block;
   }
 `;
+
+export const OrderWrapper = styled.div``;
 
 export const AcceptedCards = styled.p`
   font-weight: bold;
