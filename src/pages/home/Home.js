@@ -132,7 +132,7 @@ export default function Home() {
           </OrderImageWrapper>
           <OrderWrapper>
             <OrderTitleWrapper>
-              <h2>Pedidos:</h2>{' '}
+              <h2>{texts['pt-BR'].footer.order.request}:</h2>{' '}
               <a
                 href="https://api.whatsapp.com/send?phone=51946531811"
                 aria-label="Faça o pedido pelo whatsapp"
@@ -141,7 +141,7 @@ export default function Home() {
                 <span>946531811</span>
               </a>
             </OrderTitleWrapper>
-            <AcceptedCards>Todos os cartões aceitos</AcceptedCards>
+            <AcceptedCards>{texts['pt-BR'].footer.order.cards}</AcceptedCards>
           </OrderWrapper>
         </OrderSection>
       </Footer>
