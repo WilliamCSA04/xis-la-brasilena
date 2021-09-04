@@ -4,7 +4,7 @@ export default {
       title: 'Xis la brasileña',
       postTitle: ' de',
       highlightInfo: '15 cm de diametro',
-      info: 'Horários de Funcionamento: 17h ás 23h sábados e domingos',
+      info: 'Recebemos pedidos: 12h às 17h. Entrega apartir das 17h.',
     },
     menu: {
       title: 'Cardapio',
@@ -45,7 +45,7 @@ export default {
       title: 'Xis la brasileña',
       postTitle: ' de',
       highlightInfo: '15 cm de diámetro',
-      info: 'Horario de atención: 5pm ás 11pm sábados y domingos',
+      info: 'Recebemos pedidos: 12am hasta las 5pm. Entrega apartir de las 5pm.',
     },
     menu: {
       title: 'Menu',
