@@ -14,18 +14,11 @@ export const TextWrapper = styled.div`
 
 export const TitleWrapper = styled.p`
   color: ${props => props.theme.lightMode.colors.primary.light};
-  h1,
+  text-align: center;
   span {
     font-size: 1.5rem;
-    text-align: center;
     @media (min-width: ${props => props.theme.breakpoints.tablet}) {
       font-size: 2rem;
-      text-align: initial;
-    }
-  }
-  h1 {
-    @media (min-width: ${props => props.theme.breakpoints.tablet}) {
-      display: inline;
     }
   }
   span:first-of-type {
