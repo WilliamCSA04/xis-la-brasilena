@@ -156,6 +156,10 @@ export const VerticalLine = styled.div`
 export const OrderSection = styled.section`
   display: flex;
   flex-direction: row;
+  @media (max-width: ${props => props.theme.breakpoints.tablet}) {
+    margin-top: 0.5rem;
+    flex-direction: column;
+  }
 `;
 
 export const OrderImageWrapper = styled.section`
