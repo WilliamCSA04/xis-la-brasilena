@@ -35,22 +35,22 @@ export default function Home() {
           alt="Logotipo: Banderia brasileira com um xis no centro"
           src={`${FIREBASE_ASSETS_BASE_URL}Logo.svg?alt=media`}
         />
-        <h1>{texts['pt-BR'].heroBanner.title}</h1>
+        <h1>{texts.es.heroBanner.title}</h1>
       </Header>
       <CustomHeroBanner
         bgImg={`${FIREBASE_ASSETS_BASE_URL}banner.jpeg?alt=media`}
       >
         <TextWrapper>
           <TitleWrapper>
-            <span>{texts['pt-BR'].heroBanner.highlightInfo}</span>
+            <span>{texts.es.heroBanner.highlightInfo}</span>
           </TitleWrapper>
-          <InfoParagraph>{texts['pt-BR'].heroBanner.info}</InfoParagraph>
+          <InfoParagraph>{texts.es.heroBanner.info}</InfoParagraph>
         </TextWrapper>
       </CustomHeroBanner>
       <main>
         <MealSection>
           <CustomMiddleTitle>
-            <h2>{texts['pt-BR'].menu.title}</h2>
+            <h2>{texts.es.menu.title}</h2>
           </CustomMiddleTitle>
           <CustomMiddleConteiner>
             <CostumMealWrapperOne>
@@ -59,13 +59,13 @@ export default function Home() {
                   alt=""
                   src={`${FIREBASE_ASSETS_BASE_URL}x-sabor-1.jpeg?alt=media`}
                 />
-                <figcaption>{texts['pt-BR'].cheeseburgerMeat.title}</figcaption>
+                <figcaption>{texts.es.cheeseburgerMeat.title}</figcaption>
               </CostumMealImages>
               <MealTexts>
-                <p>{texts['pt-BR'].cheeseburgerMeat.description}</p>
+                <p>{texts.es.cheeseburgerMeat.description}</p>
                 <MealParagraph>
-                  <p>{texts['pt-BR'].cheeseburgerMeat.postTitle}</p>
-                  <p>{texts['pt-BR'].cheeseburgerMeat.info}</p>
+                  <p>{texts.es.cheeseburgerMeat.postTitle}</p>
+                  <p>{texts.es.cheeseburgerMeat.info}</p>
                 </MealParagraph>
               </MealTexts>
             </CostumMealWrapperOne>
@@ -75,13 +75,13 @@ export default function Home() {
                   alt=""
                   src={`${FIREBASE_ASSETS_BASE_URL}x-sabor-2.jpeg?alt=media`}
                 />
-                <figcaption>{texts['pt-BR'].cheeseburgerPork.title}</figcaption>
+                <figcaption>{texts.es.cheeseburgerPork.title}</figcaption>
               </CostumMealImages>
               <MealTexts>
-                <p>{texts['pt-BR'].cheeseburgerPork.description}</p>
+                <p>{texts.es.cheeseburgerPork.description}</p>
                 <MealParagraph>
-                  <p>{texts['pt-BR'].cheeseburgerPork.postTitle}</p>
-                  <p>{texts['pt-BR'].cheeseburgerPork.info}</p>
+                  <p>{texts.es.cheeseburgerPork.postTitle}</p>
+                  <p>{texts.es.cheeseburgerPork.info}</p>
                 </MealParagraph>
               </MealTexts>
             </CostumMealWrapperOne>
@@ -91,15 +91,13 @@ export default function Home() {
                   alt=""
                   src={`${FIREBASE_ASSETS_BASE_URL}x-sabor-3.jpeg?alt=media`}
                 />
-                <figcaption>
-                  {texts['pt-BR'].cheeseburgerChicken.title}
-                </figcaption>
+                <figcaption>{texts.es.cheeseburgerChicken.title}</figcaption>
               </CostumMealImages>
               <MealTexts>
-                <p>{texts['pt-BR'].cheeseburgerChicken.description}</p>
+                <p>{texts.es.cheeseburgerChicken.description}</p>
                 <MealParagraph>
-                  <p>{texts['pt-BR'].cheeseburgerChicken.postTitle}</p>
-                  <p>{texts['pt-BR'].cheeseburgerChicken.info}</p>
+                  <p>{texts.es.cheeseburgerChicken.postTitle}</p>
+                  <p>{texts.es.cheeseburgerChicken.info}</p>
                 </MealParagraph>
               </MealTexts>
             </CostumMealWrapperOne>
@@ -108,7 +106,7 @@ export default function Home() {
       </main>
       <Footer>
         <ShareSection>
-          <h2>{texts['pt-BR'].footer.shareSection.title}</h2>
+          <h2>{texts.es.footer.shareSection.title}</h2>
           <SocialMedia>
             <a
               href="https://www.facebook.com/profile.php?id=100070803637422"
@@ -132,7 +130,7 @@ export default function Home() {
           </OrderImageWrapper>
           <OrderWrapper>
             <OrderTitleWrapper>
-              <h2>{texts['pt-BR'].footer.order.request}:</h2>{' '}
+              <h2>{texts.es.footer.order.request}:</h2>{' '}
               <a
                 href="https://api.whatsapp.com/send?phone=51946531811"
                 aria-label="Faça o pedido pelo whatsapp"
@@ -141,7 +139,7 @@ export default function Home() {
                 <span>946531811</span>
               </a>
             </OrderTitleWrapper>
-            <AcceptedCards>{texts['pt-BR'].footer.order.cards}</AcceptedCards>
+            <AcceptedCards>{texts.es.footer.order.cards}</AcceptedCards>
           </OrderWrapper>
         </OrderSection>
       </Footer>
