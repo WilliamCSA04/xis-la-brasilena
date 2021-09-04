@@ -124,7 +124,7 @@ export default function Home() {
               src={`${FIREBASE_ASSETS_BASE_URL}yape.jpg?alt=media`}
             />
             <img
-              alt="Pagamento com yape"
+              alt="Pagamento com cartões"
               src={`${FIREBASE_ASSETS_BASE_URL}maquininha.png?alt=media`}
             />
           </OrderImageWrapper>
