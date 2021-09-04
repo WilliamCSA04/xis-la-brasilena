@@ -51,23 +51,23 @@ export default {
       title: 'Menu',
     },
     cheeseburgerMeat: {
-      title: 'Xis Hamburguesa de Carne',
+      title: 'Xis de Carne',
       description:
-        'Pan 15cm de diametro, 150g de hamburguesa de Carne Mayonesa artesanal de la casa Huevo tipo Omelet, queso Choclito americano, alverjita Tomate, lechuga Chatchup y mostaza.',
+        'Pan 15cm de diametro, 150g de hamburguesa de Carne, Mayonesa artesanal de la casa, Huevo tipo Omelet, queso Choclito americano, alverjita Tomate, lechuga Chatchup y mostaza.',
       postTitle: '15cm',
       info: 's/15',
     },
     cheeseburgerPork: {
-      title: 'Xis Hamburguesa de Cerdo',
+      title: 'Xis de Cerdo',
       description:
-        'Pan 15cm de diametro, 150g de hamburguesa de Cerdo Mayonesa artesanal de la casa Huevo tipo Omelet, queso Choclito americano, alverjita Tomate, lechuga Chatchup y mostaza.',
+        'Pan 15cm de diametro, 150g de hamburguesa de Cerdo, Mayonesa artesanal de la casa, Huevo tipo Omelet, queso Choclito americano, alverjita Tomate, lechuga Chatchup y mostaza.',
       postTitle: '15cm',
       info: 's/15',
     },
     cheeseburgerChicken: {
-      title: 'Xis Hamburguesa de Pollo',
+      title: 'Xis de Pollo',
       description:
-        'Pan 15cm de diametro, 150g de hamburguesa de Pollo Mayonesa artesanal de la casa Huevo tipo Omelet, queso Choclito americano, alverjita Tomate, lechuga Chatchup y mostaza.',
+        'Pan 15cm de diametro, 150g de hamburguesa de Pollo, Mayonesa artesanal de la casa, Huevo tipo Omelet, queso Choclito americano, alverjita Tomate, lechuga Chatchup y mostaza.',
       postTitle: '15cm',
       info: 's/16',
     },
