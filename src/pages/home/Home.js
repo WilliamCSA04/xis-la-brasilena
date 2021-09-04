@@ -109,7 +109,7 @@ export default function Home() {
           <h2>{texts.es.footer.shareSection.title}</h2>
           <SocialMedia>
             <a
-              href="https://www.facebook.com/profile.php?id=100070803637422"
+              href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fxislabrasilena.netlify.app%2F&amp;src=sdkpreparse"
               aria-label="Página do Facebook"
             >
               <TiSocialFacebook size="1.5rem" color="white" />
