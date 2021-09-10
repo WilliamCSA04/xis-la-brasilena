@@ -94,7 +94,7 @@ export const CostumMealImages = styled(MealImages)`
   }
 `;
 
-export const MealSection = styled.section`
+export const HomeSection = styled.section`
   padding: 20px;
   margin: 20px;
 `;
@@ -183,6 +183,17 @@ export const OrderTitleWrapper = styled.div`
   h2 {
     display: inline-block;
   }
+`;
+
+export const Ul = styled.ul`
+  color: black;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+`;
+
+export const Li = styled.li`
+  width: 33%;
 `;
 
 export const OrderWrapper = styled.div``;

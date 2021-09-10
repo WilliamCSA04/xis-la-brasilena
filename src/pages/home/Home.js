@@ -12,7 +12,7 @@ import {
   CostumMealWrapperOne,
   CustomMiddleConteiner,
   CostumMealImages,
-  MealSection,
+  HomeSection,
   MealTexts,
   MealParagraph,
   Footer,
@@ -24,6 +24,8 @@ import {
   AcceptedCards,
   OrderWrapper,
   OrderImageWrapper,
+  Li,
+  Ul,
 } from './Home.styles';
 import texts from './texts';
 
@@ -48,7 +50,7 @@ export default function Home() {
         </TextWrapper>
       </CustomHeroBanner>
       <main>
-        <MealSection>
+        <HomeSection>
           <CustomMiddleTitle>
             <h2>{texts.es.menu.title}</h2>
           </CustomMiddleTitle>
@@ -118,7 +120,19 @@ export default function Home() {
               </MealTexts>
             </CostumMealWrapperOne>
           </CustomMiddleConteiner>
-        </MealSection>
+        </HomeSection>
+        <HomeSection>
+          <CustomMiddleTitle>
+            <h2>{texts.es.delivery.title}</h2>
+          </CustomMiddleTitle>
+          <Ul>
+            {texts.es.delivery.listOfPlaces.map(place => (
+              <Li>
+                {place.name} {place.value}
+              </Li>
+            ))}
+          </Ul>
+        </HomeSection>
       </main>
       <Footer>
         <ShareSection>

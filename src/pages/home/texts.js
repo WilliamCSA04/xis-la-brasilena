@@ -37,6 +37,68 @@ export default {
       postTitle: '15cm',
       info: 's/16',
     },
+    delivery: {
+      title: 'Entregas',
+      listOfPlaces: [
+        {
+          name: 'San Borja',
+          value: 'S/ 5,00',
+        },
+        {
+          name: 'Surquillo',
+          value: 'S/ 5,00',
+        },
+        {
+          name: 'San Luis',
+          value: 'S/ 5,00',
+        },
+        {
+          name: 'Surco',
+          value: 'S/ 6,00',
+        },
+        {
+          name: 'Barranco',
+          value: 'S/ 6,00',
+        },
+        {
+          name: 'Miraflores',
+          value: 'S/ 6,00',
+        },
+        {
+          name: 'San Isidro',
+          value: 'S/ 6,00',
+        },
+        {
+          name: 'Salamanca',
+          value: 'S/ 6,00',
+        },
+        {
+          name: 'Lince',
+          value: 'S/ 6,00',
+        },
+        {
+          name: 'Chorrillos',
+          value: 'S/ 7,00',
+        },
+        {
+          name: 'Magdalena',
+          value: 'S/ 7,00',
+        },
+        {
+          name: 'San Miguel',
+          value: 'S/ 7,00',
+        },
+        {
+          name: 'Jesus Marias',
+          value: 'S/ 7,00',
+        },
+
+        {
+          name: 'La Molina',
+          value: 'S/ 8,00',
+        },
+      ],
+    },
     footer: {
       shareSection: {
         title: 'Compartilhe:',
@@ -56,6 +118,68 @@ export default {
     },
     menu: {
       title: 'Menu',
+    },
+    delivery: {
+      title: 'Delivery',
+      listOfPlaces: [
+        {
+          name: 'San Borja',
+          value: 'S/ 5,00',
+        },
+        {
+          name: 'Surquillo',
+          value: 'S/ 5,00',
+        },
+        {
+          name: 'San Luis',
+          value: 'S/ 5,00',
+        },
+        {
+          name: 'Surco',
+          value: 'S/ 6,00',
+        },
+        {
+          name: 'Barranco',
+          value: 'S/ 6,00',
+        },
+        {
+          name: 'Miraflores',
+          value: 'S/ 6,00',
+        },
+        {
+          name: 'San Isidro',
+          value: 'S/ 6,00',
+        },
+        {
+          name: 'Salamanca',
+          value: 'S/ 6,00',
+        },
+        {
+          name: 'Lince',
+          value: 'S/ 6,00',
+        },
+        {
+          name: 'Chorrillos',
+          value: 'S/ 7,00',
+        },
+        {
+          name: 'Magdalena',
+          value: 'S/ 7,00',
+        },
+        {
+          name: 'San Miguel',
+          value: 'S/ 7,00',
+        },
+        {
+          name: 'Jesus Marias',
+          value: 'S/ 7,00',
+        },
+
+        {
+          name: 'La Molina',
+          value: 'S/ 8,00',
+        },
+      ],
     },
     cheeseburgerMeat: {
       title: 'Xis de Carne',
