@@ -101,6 +101,22 @@ export default function Home() {
                 </MealParagraph>
               </MealTexts>
             </CostumMealWrapperOne>
+            <CostumMealWrapperOne>
+              <CostumMealImages>
+                <img
+                  alt=""
+                  src={`${FIREBASE_ASSETS_BASE_URL}x-sabor-huachana.jpeg?alt=media`}
+                />
+                <figcaption>{texts.es.cheeseburgerHuachana.title}</figcaption>
+              </CostumMealImages>
+              <MealTexts>
+                <p>{texts.es.cheeseburgerHuachana.description}</p>
+                <MealParagraph>
+                  <p>{texts.es.cheeseburgerHuachana.postTitle}</p>
+                  <p>{texts.es.cheeseburgerHuachana.info}</p>
+                </MealParagraph>
+              </MealTexts>
+            </CostumMealWrapperOne>
           </CustomMiddleConteiner>
         </MealSection>
       </main>
