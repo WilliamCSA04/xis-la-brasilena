@@ -92,7 +92,10 @@ export default {
           name: 'Jesus Marias',
           value: 'S/ 7,00',
         },
-
+        {
+          name: 'Pueblo Libre',
+          value: 'S/ 7,00',
+        },
         {
           name: 'La Molina',
           value: 'S/ 8,00',
@@ -174,7 +177,10 @@ export default {
           name: 'Jesus Marias',
           value: 'S/ 7,00',
         },
-
+        {
+          name: 'Pueblo Libre',
+          value: 'S/ 7,00',
+        },
         {
           name: 'La Molina',
           value: 'S/ 8,00',
