@@ -77,24 +77,24 @@ export default {
           value: 'S/ 6,00',
         },
         {
-          name: 'Chorrillos',
-          value: 'S/ 7,00',
+          name: 'Jesus Maria',
+          value: 'S/ 6,00',
         },
         {
           name: 'Magdalena',
           value: 'S/ 7,00',
         },
         {
-          name: 'San Miguel',
-          value: 'S/ 7,00',
-        },
-        {
-          name: 'Jesus Marias',
-          value: 'S/ 7,00',
-        },
-        {
           name: 'Pueblo Libre',
           value: 'S/ 7,00',
+        },
+        {
+          name: 'San Miguel',
+          value: 'S/ 8,00',
+        },
+        {
+          name: 'Chorrillos',
+          value: 'S/ 8,00',
         },
         {
           name: 'La Molina',
@@ -162,24 +162,24 @@ export default {
           value: 'S/ 6,00',
         },
         {
-          name: 'Chorrillos',
-          value: 'S/ 7,00',
+          name: 'Jesus Maria',
+          value: 'S/ 6,00',
         },
         {
           name: 'Magdalena',
           value: 'S/ 7,00',
         },
         {
-          name: 'San Miguel',
-          value: 'S/ 7,00',
-        },
-        {
-          name: 'Jesus Marias',
-          value: 'S/ 7,00',
-        },
-        {
           name: 'Pueblo Libre',
           value: 'S/ 7,00',
+        },
+        {
+          name: 'San Miguel',
+          value: 'S/ 8,00',
+        },
+        {
+          name: 'Chorrillos',
+          value: 'S/ 8,00',
         },
         {
           name: 'La Molina',
